@@ -35,8 +35,8 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 
-# gem 'sbf', github: 'prusswan/sbf' #, branch: 'engine-migrations'
-gem 'sbf', path: '~/Projects/sbf'
+gem 'sbf', github: 'prusswan/sbf' #, branch: 'engine-migrations'
+#gem 'sbf', path: '~/Projects/sbf'
 
 gem 'settingslogic'
 gem 'activesupport-decorators', '~> 1.0'
@@ -54,8 +54,8 @@ group :development, :test do
   # gem 'protected_attributes'
 
   # for pushing db seed to heroku
-  gem 'heroku', '~> 2.40'
-  gem 'taps'
+  #gem 'heroku', '~> 2.40'
+  #gem 'taps'
   gem 'sqlite3'
 end
 
